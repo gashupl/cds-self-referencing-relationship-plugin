@@ -3,3 +3,6 @@
 ################################################################################
 
 /SelfReferencingRelationshipPlugin/.vs/SelfReferencingRelationshipPlugin/v16
+/SelfReferencingRelationshipPlugin/packages/Microsoft.CrmSdk.CoreAssemblies.9.0.2.25
+/SelfReferencingRelationshipPlugin/SelfReferencingRelationshipPlugin/bin/Debug
+/SelfReferencingRelationshipPlugin/SelfReferencingRelationshipPlugin/obj/Debug
