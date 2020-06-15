@@ -4,8 +4,8 @@ namespace SelfReferencingRelationshipPlugin.Internal
 {
     class QueryExpressionBuilder
     {
-        const string relationOneName = "One";
-        const string relationTwoName = "Two";
+        const string relationOneName = "one";
+        const string relationTwoName = "two";
 
         public static QueryExpression GetSelfRelationsQuery(GetSelfRelationsQueryParameter param)
         {

@@ -36,8 +36,8 @@ namespace SelfReferencingRelationshipPlugin
                 {
                     RelationName = relationship.SchemaName,
                     EntityName = target.LogicalName,
-                    RecordOneId = target.Id,
-                    RecordTwoId = relatedEntityId.Value
+                    RecordOneId = relatedEntityId.Value,
+                    RecordTwoId = target.Id
                 });
 
                 var queryResults = orgService.RetrieveMultiple(query).Entities.ToList();
