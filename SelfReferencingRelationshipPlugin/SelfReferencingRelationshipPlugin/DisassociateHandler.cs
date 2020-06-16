@@ -4,6 +4,10 @@ using System.Linq;
 
 namespace SelfReferencingRelationshipPlugin
 {
+    /// <summary>
+    /// Sample unsecure config for this plugin:
+    /// ["pg_foo_pg_foo"]
+    /// </summary>
     public class DisassociateHandler : PluginBase
     {
         public DisassociateHandler(string unsecureConfig, string secureConfig) : base(unsecureConfig, secureConfig)
